@@ -52,6 +52,10 @@ import EssentialLink from 'components/EssentialLink'
 export default {
   name: 'MainLayout',
 
+  meta: {
+    title: "Souls Harbor"
+  },
+
   components: {
     EssentialLink
   },

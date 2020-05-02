@@ -2,7 +2,7 @@
   "name": "souls_harbor",
   "version": "0.0.1",
   "description": "Souls Harbor web app",
-  "productName": "souls-harbor",
+  "productName": "Souls Harbor",
   "cordovaId": "org.cordova.quasar.app",
   "capacitorId": "",
   "author": "Milo Bonsall <milo@scrumb.org>",

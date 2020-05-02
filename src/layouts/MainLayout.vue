@@ -2,20 +2,37 @@
   <q-layout view="lHh Lpr lFf">
     <q-header elevated>
       <q-toolbar>
-        <q-btn
-          flat
-          dense
-          round
-          icon="menu"
-          aria-label="Menu"
-          @click="leftDrawerOpen = !leftDrawerOpen"
-        />
-
         <q-toolbar-title>
-          Souls Harbor Website
+          Souls Harbor <small>Your Community Anchor</small>
         </q-toolbar-title>
 
-        <div>Your Community Anchor</div>
+        <q-tabs v-model="tab">
+          <q-route-tab
+            name="home"
+            label="Home"
+            :to="{ name: '' }"
+          />
+          <q-route-tab
+            name="bapt"
+            label="Baptism"
+            :to="{ name: '/baptism' }"
+          />
+          <q-route-tab
+            name="comm"
+            label="Communion"
+            :to="{ name: '/communion' }"
+          />
+          <q-route-tab
+            name="info"
+            label="Info"
+            :to="{ name: '/info' }"
+          />
+          <q-route-tab
+            name="contact"
+            label="Contact"
+            :to="{ name: '/contact' }"
+          />
+        </q-tabs>
       </q-toolbar>
     </q-header>
     <q-page-container>

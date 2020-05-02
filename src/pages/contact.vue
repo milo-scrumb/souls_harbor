@@ -1,6 +1,6 @@
 <template>
   <q-page padding>
-    <!-- content -->
+    Contact page
   </q-page>
 </template>
 

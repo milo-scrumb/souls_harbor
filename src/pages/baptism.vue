@@ -1,6 +1,6 @@
 <template>
   <q-page padding>
-    <!-- content -->
+    Baptism page
   </q-page>
 </template>
 

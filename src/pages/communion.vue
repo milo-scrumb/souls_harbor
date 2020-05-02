@@ -1,6 +1,6 @@
 <template>
   <q-page padding>
-    <!-- content -->
+    Communion page
   </q-page>
 </template>
 

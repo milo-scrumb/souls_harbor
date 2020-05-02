@@ -1,0 +1,13 @@
+Everything is a file.  But...
+
+What is a text editor?
+
+What is a browser?
+
+What is a server?
+
+What is a programming language?
+
+What is a raster graphic?
+
+What is a vector graphic?
